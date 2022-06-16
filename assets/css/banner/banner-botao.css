@@ -1,0 +1,22 @@
+.banner__botao {
+    color: #FEFEFE;
+    background: #35353599;
+    border-radius: 10px;
+    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: bold;
+    left: 50%;
+    padding: 20px;
+    position: absolute;
+    text-align: center;
+    text-shadow: #000000 2px 2px 2px;
+    top: 65%;
+    transform: translate(-50%);
+    text-decoration: none;
+}
+
+.banner__botao:hover {
+    background-color: #353535;
+    color: #c78c19;
+    cursor: pointer;
+}

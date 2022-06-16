@@ -1,0 +1,12 @@
+.sobre {
+    background: #FEFEFE;
+    margin: 0 auto;
+    padding: 3em 0;
+    width: 940px;
+}
+
+@media screen and (max-width: 480px) {
+    .sobre{
+        width: auto;
+    }
+}

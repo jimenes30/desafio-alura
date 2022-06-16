@@ -1,0 +1,10 @@
+.mapa__conteudo {
+    margin: 0 auto;
+    width: 940px;
+}
+
+@media screen and (max-width: 480px) {
+    .mapa__conteudo{
+        width: auto;
+    }
+}

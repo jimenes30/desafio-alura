@@ -1,0 +1,13 @@
+.menu__link {
+    color: #FEFEFE;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: #000000 2px 2px 2px;
+    text-transform: uppercase;
+}
+
+.menu__link:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}

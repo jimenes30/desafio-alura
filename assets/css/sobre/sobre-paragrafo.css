@@ -1,0 +1,11 @@
+.sobre__paragrafo {
+    margin: 0 0 1em;
+}
+
+.sobre__paragrafo--negrito {
+    font-weight: bold;
+}
+
+.sobre__paragrafo--italico {
+    font-style: italic;
+}

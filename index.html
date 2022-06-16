@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Barbearia Alura</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="./assets/css/reset.css">
+        <link rel="stylesheet" href="./assets/css/corpo.css">
+        <link rel="stylesheet" href="./assets/css/cabecalho.css">
+        <link rel="stylesheet" href="./assets/css/logo.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu-lista.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu-item.css">
+        <link rel="stylesheet" href="./assets/css/menu/menu-link.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-titulo.css">
+        <link rel="stylesheet" href="./assets/css/banner/banner-botao.css">
+        <link rel="stylesheet" href="./assets/css/principal.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre-titulo.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre-imagem.css">
+        <link rel="stylesheet" href="./assets/css/sobre/sobre-paragrafo.css">
+        <link rel="stylesheet" href="./assets/css/mapa/mapa.css">
+        <link rel="stylesheet" href="./assets/css/mapa/mapa-titulo.css">
+        <link rel="stylesheet" href="./assets/css/mapa/mapa-paragrafo.css">
+        <link rel="stylesheet" href="./assets/css/mapa/mapa-conteudo.css">
+        <link rel="stylesheet" href="./assets/css/beneficios/beneficios.css">
+        <link rel="stylesheet" href="./assets/css/beneficios/beneficios-titulo.css">
+        <link rel="stylesheet" href="./assets/css/beneficios/beneficios-conteudo.css">
+        <link rel="stylesheet" href="./assets/css/beneficios/beneficios-lista.css">
+        <link rel="stylesheet" href="./assets/css/beneficios/beneficios-itens.css">
+        <link rel="stylesheet" href="./assets/css/beneficios/beneficios-imagem.css">
+        <link rel="stylesheet" href="./assets/css/beneficios/beneficios-video.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-imagem.css">
+        <link rel="stylesheet" href="./assets/css/rodape/rodape-copyright.css">
+    </head>
+    
+    <body class="corpo">
+
+        <header class="cabecalho">
+            
+            <img class="logo" src="./assets/imagens/logo-branco.png" alt="Logo da Barbearia Alura" height="100px">
+
+            <nav class="menu">
+                <ul class="menu__lista">
+                    <li class="menu__item"><a class="menu__link" href="./index.html">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="./produtos.html">Produtos</a></li>
+                    <li class="menu__item"><a class="menu__link" href="./contato.html">Contato</a></li>
+                </ul>
+            </nav>
+
+        </header>
+
+        <section class="banner">
+            <img class="banner__imagem" src="./assets/imagens/banner.jpg">
+            <h2 class="banner__titulo">Seu cabelo e barba do jeito que você sempre quis!</h2>
+            <button class="banner__botao" onclick="rolar_para_sobre()">Saiba mais</button>
+        </section>
+
+        <main class="principal">
+            <section class="sobre">
+                <h2 class="sobre__titulo">Sobre a Barbearia Alura</h2>
+
+                <img class="sobre__imagem" src="./assets/imagens/utensilios.jpg" alt="Utensílios de um barbeiro.">
+
+                <p class="sobre__paragrafo">Localizada no coração da cidade a <strong class="sobre__paragrafo--negrito">Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+                <p class="sobre__paragrafo"><em class="sobre__paragrafo--italico">Nossa missão é: <strong class="sobre__paragrafo--negrito">"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+                <p class="sobre__paragrafo">Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+            </section>
+
+            <section class="mapa">
+                
+                <h3 class="mapa__titulo">Nosso Estabelecimento</h3>
+                <p class="mapa__paragrafo">Nosso estabelecimento está localizado no coração da cidade.</p>
+                <div class="mapa__conteudo">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58503.19744076267!2d-46.69824986875001!3d-23.5881948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1653935632297!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+            </section>
+            
+            <section class="beneficios">
+                <h3 class="beneficios__titulo">Benefícios</h3>
+                
+                <div class="beneficios__conteudo">
+                    <ul class="beneficios__lista">
+                        <li class="beneficios__itens">Atendimento aos Clientes</li>
+                        <li class="beneficios__itens">Espaço diferenciado</li>
+                        <li class="beneficios__itens">Localização</li>
+                        <li class="beneficios__itens">Profissionais Qualificados</li>
+                        <li class="beneficios__itens">Pontualidade</li>
+                        <li class="beneficios__itens">Limpeza</li>
+                    </ul><img class="beneficios__imagem" src="./assets/imagens/beneficios.jpg"></div>
+
+                    <div class="beneficios__video">
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+            </section>
+        </main>
+
+        <footer class="rodape">
+            <img class="rodape__imagem" src="./assets/imagens/logo-branco.png" alt="Logo da Barbearia Alura">
+            <p class="rodape__copyright">&copy; Copyright Barbearia Alura - 2019</p>
+        </footer>
+
+        <script src="./assets/js/botao-sobre.js"></script>
+    </body>
+</html>

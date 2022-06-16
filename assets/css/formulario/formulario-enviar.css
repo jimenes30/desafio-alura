@@ -1,0 +1,18 @@
+.formulario__enviar {
+    background: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 0;
+    transition: background-color 1s, transform 1s;
+    width: 40%;
+}
+
+
+.formulario__enviar:hover {
+    background-color: darkorange;
+    transform: scale(1.2);
+}

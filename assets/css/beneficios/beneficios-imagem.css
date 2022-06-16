@@ -1,0 +1,16 @@
+.beneficios__imagem {
+    box-shadow: 10px 10px 10px 0 #000000;
+    opacity: 1;
+    transition: 400ms;
+    width: 60%;
+}
+
+.beneficios__imagem:hover {
+    opacity: 0.3;
+}
+
+@media screen and (max-width: 480px) {
+    .beneficios__imagem {
+        width: 100%;
+    }
+}

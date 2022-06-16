@@ -1,0 +1,10 @@
+.beneficios__conteudo {
+    margin: 0 auto;
+    width: 640px;
+}
+
+@media screen and (max-width: 480px) {
+    .beneficios__conteudo{
+        width: auto;
+    }
+}

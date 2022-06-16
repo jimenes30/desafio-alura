@@ -1,0 +1,11 @@
+.beneficios__itens {
+    line-height: 1.5em;
+}
+
+.beneficios__itens:first-child{
+    font-weight: bold;
+}
+
+.beneficios__itens::before {
+    content: "★";
+}
