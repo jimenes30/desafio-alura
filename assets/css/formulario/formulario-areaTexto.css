@@ -1,0 +1,8 @@
+/* .formulario__area-texto {} */
+
+@media screen and (max-width: 1007px) {
+    .formulario__area-texto {
+        margin-bottom: 30px;
+        max-width: 100%;
+    }    
+}

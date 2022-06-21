@@ -2,3 +2,10 @@
     display: block;
     margin: 20px 0;
 }
+
+@media screen and (max-width: 1007px) {
+    .formulario__checkbox {
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }        
+}

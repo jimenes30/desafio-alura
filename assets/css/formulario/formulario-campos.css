@@ -1,0 +1,12 @@
+/* .formulario__campos {
+    border: 1px solid black;
+} */
+
+@media screen and (max-width: 1007px) {
+    .formulario__campos {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+    
+}

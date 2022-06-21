@@ -1,3 +1,8 @@
-.menu__lista {
+/* .menu__lista {} */
 
+@media screen and (max-width: 1007px) {
+    .menu__lista {
+        display: flex;
+        flex-direction: column;
+    }
 }

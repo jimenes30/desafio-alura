@@ -1,3 +1,9 @@
 .formulario__tabela {
     margin: 20px 0 40px;
 }
+
+@media screen and (max-width: 1007px) {
+    .formulario__tabela {
+        text-align: center;
+    }
+}

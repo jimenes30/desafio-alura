@@ -1,8 +1,10 @@
 .produto {
     border: 2px solid #000000;
     border-radius: 10px;
+    box-shadow: #000000 1px 1px 4px;
     box-sizing: border-box;
     display: inline-block;
+    height: 30rem;
     margin: 0 1.5%;
     padding: 30px 20px;
     text-align: center;
@@ -10,14 +12,32 @@
     width: 30%;
 }
 
-.produto:hover {
+.produto:active {
     border-color: #c78c19;
 }
 
-.produto:active {
-    border-color: #088c19;
+.produto:hover {
+    text-shadow: #cecece 0.1px 0.1px;
+}
+
+.produto:hover .produto__botao {
+    font-weight: bolder;
 }
 
 .produto:hover .produto__titulo {
-    font-size: 34px;
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 1007px) {
+    .produto {
+        display: flex;
+        flex-direction: column;
+        height: calc(80vh - 100px);
+        justify-content: space-around;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding: 2rem 2rem;
+        position: relative;
+        width: 90%;
+    }        
 }

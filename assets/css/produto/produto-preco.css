@@ -3,3 +3,10 @@
     font-weight: bold;
     margin-top: 10px;
 }
+
+@media screen and (max-width: 1007px) {
+    .produto__preco {
+        margin-top: 0;
+        position: relative;
+    }    
+}

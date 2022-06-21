@@ -2,3 +2,9 @@
     width: 940px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1007px) {
+    .principal {
+        width: 100%;
+    }
+}

@@ -5,8 +5,9 @@
     width: 940px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1007px) {
     .sobre{
+        padding: 5rem 1rem;
         width: auto;
     }
 }

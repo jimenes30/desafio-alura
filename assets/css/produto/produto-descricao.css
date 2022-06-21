@@ -1,3 +1,10 @@
 .produto__descricao {
     font-size: 18px;
+    height: 3.5rem;
+}
+
+@media screen and (max-width: 1007px) {
+    .produto__descricao {
+        position: relative;
+    }
 }

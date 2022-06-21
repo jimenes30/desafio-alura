@@ -2,3 +2,10 @@
     font-size: 30px;
     font-weight: bold;
 }
+
+@media screen and (max-width: 1007px) {
+    .produto__titulo {
+        margin: 0 auto;
+        top: 0;
+    }
+}

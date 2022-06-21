@@ -1,22 +1,44 @@
 .banner__botao {
-    color: #FEFEFE;
-    background: #35353599;
+    background-color: #222222;
+    border: #c78c19 1px solid;
     border-radius: 10px;
-    font-size: 2rem;
+    box-shadow: #000000 2px 2px 2px;
+    color: #c78c19;
+    cursor: pointer;
+    display: block;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     font-weight: bold;
     left: 50%;
     padding: 20px;
     position: absolute;
     text-align: center;
-    text-shadow: #000000 2px 2px 2px;
+    text-decoration: none;
+    text-shadow: #000000 2px 2px;
+    text-transform: uppercase;
     top: 65%;
     transform: translate(-50%);
-    text-decoration: none;
+    transition: 300ms;
+    outline: #000000 1px solid;
 }
 
 .banner__botao:hover {
-    background-color: #353535;
-    color: #c78c19;
-    cursor: pointer;
+    background-color: #c78c19;
+    color: #000000;
+    font-weight: bold;
+    text-shadow: #f0f0f0 1px 1px;
+    transform: translate(-50%) scale(1.1);
+}
+
+.banner__botao:active {
+    background-color: #c78c1999;
+}
+
+@media screen and (max-width: 1007px) {
+    .banner__botao {
+        font-size: 0.6rem;
+        padding: 0.5rem;
+        text-transform: initial;
+        top: 70%;
+    }    
 }

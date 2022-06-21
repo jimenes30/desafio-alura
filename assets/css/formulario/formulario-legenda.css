@@ -3,3 +3,11 @@
     font-size: 20px;
     margin: 0 0 10px;
 }
+
+@media screen and (max-width: 1007px) {
+    .formulario__legenda {
+        margin: 0 auto;
+        margin-bottom: 10px;
+        width: 100%;
+    }    
+}

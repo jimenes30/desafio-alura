@@ -19,7 +19,10 @@
         <link rel="stylesheet" href="./assets/css/formulario/formulario.css">
         <link rel="stylesheet" href="./assets/css/formulario/formulario-etiqueta.css">
         <link rel="stylesheet" href="./assets/css/formulario/formulario-input.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-areaTexto.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-campos.css">
         <link rel="stylesheet" href="./assets/css/formulario/formulario-legenda.css">
+        <link rel="stylesheet" href="./assets/css/formulario/formulario-selecao.css">
         <link rel="stylesheet" href="./assets/css/formulario/formulario-checkbox.css">
         <link rel="stylesheet" href="./assets/css/formulario/formulario-enviar.css">
         <link rel="stylesheet" href="./assets/css/formulario/fomulario-tabela.css">
@@ -35,7 +38,7 @@
         
         <header class="cabecalho">
             
-            <img class="logo" src="./assets/imagens/logo-branco.png" alt="Logo da Barbearia Alura" height="100px">
+            <a href="./index.html"><img class="logo" src="./assets/imagens/logo-branco.png" alt="Logo da Barbearia Alura" height="100px"></a>
 
             <nav class="menu">
                 <ul class="menu__lista">
@@ -60,9 +63,9 @@
                 <input class="formulario__input" type="tel" id="telefone" required placeholder="(XX) XXXXX-XXXX">
 
                 <label class="formulario__etiqueta" for="mensagem">Mensagem</label>
-                <textarea id="mensagem" cols="70" rows="10" required></textarea>
+                <textarea class="formulario__area-texto" id="mensagem" cols="70" rows="10" required></textarea>
 
-                <fieldset>
+                <fieldset class="formulario__campos">
                     <legend class="formulario__legenda">Como prefere o nosso contato?</legend>
                     <label class="formulario__etiqueta" for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
 
@@ -72,9 +75,9 @@
 
                 </fieldset>
 
-                <fieldset>
+                <fieldset class="formulario__campos">
                     <legend class="formulario__legenda">Qual horário prefere ser atendido?</legend>
-                    <select>
+                    <select class="formulario__selecao">
                         <option>Manhã</option>
                         <option>Tarde</option>
                         <option>Noite</option>

@@ -2,3 +2,10 @@
     margin: 0 0 2em;
     text-align: center;
 }
+
+@media screen and (max-width: 1007px) {
+    .mapa__paragrafo {
+        line-height: 1.5rem;
+    }
+    
+}

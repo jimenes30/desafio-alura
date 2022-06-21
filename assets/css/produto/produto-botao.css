@@ -1,0 +1,30 @@
+.produto__botao {
+    background-color: #fdfdfd;
+    border: #000000 2px solid;
+    border-radius: 10px;
+    color: #000000;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1rem;
+    padding: 1rem 4rem;
+    text-transform: uppercase;
+    transition: 200ms;
+}
+
+.produto__botao:hover {
+    background-color: #c78c19;
+    font-weight: bolder;
+    transform: scale(1.1);
+    text-shadow: #cecece 1px 1px 1px;
+}
+
+.produto__botao:active {
+    background-color: #c78c1999;
+}
+
+@media screen and (max-width: 1007px) {
+    .produto__botao {
+        display: block;
+        padding: 2vh;
+    }
+}

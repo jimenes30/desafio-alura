@@ -1,3 +1,17 @@
 .corpo {
     font-family: 'Montserrat', sans-serif;
 }
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #222222;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #c78c19;
+    border-radius: 10px;
+}
+

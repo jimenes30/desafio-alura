@@ -9,3 +9,10 @@
 .sobre__paragrafo--italico {
     font-style: italic;
 }
+
+@media screen and (max-width: 1007px) {
+    .sobre__paragrafo {
+        text-align: justify;
+        line-height: 1.5rem;
+    }    
+}

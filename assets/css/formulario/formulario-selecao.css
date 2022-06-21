@@ -1,0 +1,11 @@
+/* .formulario__selecao {} */
+
+@media screen and (max-width: 1007px) {
+    .formulario__selecao {
+        font-family: 'Montserrat', sans-serif;
+        margin-bottom: 10px;
+        padding: 5px;
+        text-align: center;
+        width: 100%;
+    }        
+}

@@ -11,3 +11,11 @@
     color: #c78c19;
     text-decoration: underline;
 }
+
+@media screen and (max-width: 1007px) {
+    .menu__link {
+        padding: 10px 1px;
+        font-size: 0.8rem;
+    }
+    
+}

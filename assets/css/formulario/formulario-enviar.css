@@ -13,6 +13,17 @@
 
 
 .formulario__enviar:hover {
-    background-color: darkorange;
+    background-color: rgb(255, 81, 0);
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 1007px) {
+    .formulario__enviar {
+        margin-bottom: 20px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .formulario__enviar:hover{
+        transform: none;
+    }
 }

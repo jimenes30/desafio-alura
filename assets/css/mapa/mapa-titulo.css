@@ -4,3 +4,10 @@
     margin: 0 0 1em;
     clear: left;
 }
+
+@media screen and (max-width: 1007px) {
+    .mapa__titulo {
+        font-size: 1.5rem;
+    }
+    
+}

@@ -4,3 +4,10 @@
     padding: 10px 25px;
     width: 50%;
 }
+
+@media screen and (max-width: 1007px) {
+    .formulario__input {
+        box-sizing: border-box;
+        width: 100%;
+    }    
+}

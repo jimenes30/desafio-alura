@@ -9,8 +9,9 @@
     opacity: 0.3;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 1007px) {
     .beneficios__imagem {
-        width: 100%;
+        margin: 1rem 1rem;
+        width: 90%;
     }
 }
